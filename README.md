@@ -343,3 +343,5 @@ int main (){
 
 }
 ```
+# week4筆記
+## struct DATA { float x, y, z; }; 結構的宣告、定義
