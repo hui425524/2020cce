@@ -378,6 +378,7 @@ int main()
 
 ```
 ##字串排序(qsort)
+```
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
