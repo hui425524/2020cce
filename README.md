@@ -178,7 +178,7 @@ int main()
 ```
 # **week2筆記**
 
-```c=
+```c
 #include <stdio.h>
 int main()
 {
@@ -200,7 +200,7 @@ int main()
     return 0;
 }
 ```
-```c=
+```c
 #include <stdio.h>
 int main()
 {
@@ -223,7 +223,7 @@ int main()
 }
 
 ```
-```c=
+```c
 #include <stdio.h>
 int main()
 {
@@ -242,7 +242,7 @@ int main()
 
 }
 ```
-```c=
+```c
 #include <stdio.h>
 int main()
 {
@@ -258,7 +258,7 @@ int main()
 ```
 # week3筆記
 ## P
-```C
+```c
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
 int main ()
@@ -273,7 +273,7 @@ int main ()
 ```
 
 ## P--
-```C
+```c
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
 void printAll()
@@ -301,7 +301,7 @@ int main ()
 ```
 
 ## 指標宣告
-```C
+```c
 #include <stdio.h>
 int a[10]={0,10,20,30,40,50,60,70,80,90};
 void printAll()
@@ -330,7 +330,7 @@ int main ()
 ```
 
 ## malloc
-```C
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -378,7 +378,7 @@ int main()
 
 ```
 ##字串排序(qsort)
-```
+```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -405,9 +405,10 @@ int main()
         printf("%s\n", line[i]);
     }
 }
-```c
+```
 
-##第十周 實習題目
+
+## 第十周 實習題目
 # 進階題：最大公因數gcd
 ```c
 #include <stdio.h>
