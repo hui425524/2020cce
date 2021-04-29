@@ -431,3 +431,83 @@ int main()
 }
 
 ```
+# 進階題：字串長度 
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+int main()
+{
+	char a[1000];
+	char b[1000];
+	scanf("%s%s",a,b);
+	
+	if(strlen(a)>strlen(b))printf("1");
+	else if(strlen(a)<strlen(b))printf("-1");
+	else if(strlen(a)==strlen(b))
+	{
+		if(strcmp(a,b)>0)printf("1");
+		if(strcmp(a,b)<0)printf("-1");
+		if(strcmp(a,b)==0)printf("0");
+		
+	}
+
+}
+```
+#進階題：函數判斷質數
+```c
+#include <iostream>
+using namespace std;
+int prime(int n)
+{
+	int m=0;
+	for(int i=1;i<=n;i++){
+	
+		if(n%i==0)
+		{
+			m+=1;	
+		}
+	
+	}
+	if(m==2) return 1;
+	else return 0;
+}
+int main(){
+  int n;cin>>n;
+  cout<<"["<<prime(n)<<"]";
+  return 0;
+}
+
+```
+#進階題：判斷迴文 
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+int main()
+{
+	int n=0;
+	char c[80]={};
+	scanf("%s",c);
+	
+	for(int i=0;c[i]!=0;i++){
+		
+		n++;		
+	}
+	
+	for(int i=0;i<n;i++){
+	
+		if(n<3)n--;
+		if(c[i]!=c[n-i])
+		{
+			printf("NO");
+			break;
+		}
+		else
+		{
+			printf("YES");
+			break;
+		} 
+	}
+}
+```
