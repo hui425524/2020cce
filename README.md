@@ -407,3 +407,26 @@ int main()
 }
 ```c
 
+##第十周 實習題目
+# 進階題：最大公因數gcd
+```c
+#include <stdio.h>
+int main()
+{
+	printf("Enter two integers: \n");
+	
+	int a,b,t=0;
+	scanf("%d%d",&a,&b);
+	int x=a,y=b;
+	while(b!=0)
+	{
+		t=a%b;
+		a=b;
+		b=t;
+	}
+	
+	printf("The greatest common divisor of %d and %d is %d\n",x,y,a);
+
+}
+
+```
