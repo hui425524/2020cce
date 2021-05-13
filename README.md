@@ -511,7 +511,8 @@ int main()
 	}
 }
 ```
-# UVA299
+# 程設會考題
+##UVA299
 ```c
 #include <stdio.h>
 int a[100];
@@ -545,7 +546,7 @@ int main()
 	}
 }
 ```
-#UVA10062
+## UVA10062
 ```c
 #include <stdio.h>
 char a[2000];
