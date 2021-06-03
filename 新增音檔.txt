@@ -1,0 +1,30 @@
+把聲音導入:點sketch -> 使用函式庫並安裝
+
+#要拖曳音檔進來
+
+import processing.sound.*;
+SoundFile player;
+void setup(){ 
+  
+ size(400,200); 
+ player = new SoundFile(this,"tada.mp3");
+}
+void draw(){
+  
+  background(51,114,191);
+  
+}
+void mousePressed(){
+
+/*按一下撥放或暫停 
+if( player.isPlaying() ){
+    
+     player.stop();
+     
+  }else{
+*/  
+ 	player.play(); 
+
+	}
+
+//}
